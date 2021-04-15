@@ -18,13 +18,33 @@ class ViewcontrollerViewModel {
     var result: [Person]?
     var initialData = [Person]()
     private var filterDataModel: FilterDataModel?
+    
+    private var isFilterModelAvailable: Bool {
+        if let _ = filterDataModel { return true }
+
+        return false
+    }
      
     func cellCount() -> Int {
         print(self.dataModel?.results)
+        
+        if let filterDataModel = filterDataModel {
+            return filterDataModel.collections?.count ?? 0
+        }
+        
         return self.initialData.count
     }
 
     func getDataForIndex(index: Int) -> Person {
+        if let filterDataModel = filterDataModel {
+            if let collection = filterDataModel.collections?[index] {
+                return collection
+            }
+//            guard let collection = filterDataModel.collections?[index] else { return nil}
+
+            
+        }
+        
         return self.initialData[index]
     }
     

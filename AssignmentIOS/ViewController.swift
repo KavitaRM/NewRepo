@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         configureUI()
 
         getList()
+        mainTableView.reloadData()
     }
     
     func getList() {

@@ -26,10 +26,7 @@ class FilterViewModel {
     var isSpecificTypeAvailable = false
 
     var apiData: [Person]?
-    var eyeColors = ["blue","yellow","red","brown"]
-    var hairColors = ["gray","brown","bleck","blond"]
-    var genderSpecifics = ["male","female"]
-    
+
     var dataModel: FilterDataModel?
     
     let genderFilter = "Gender"
@@ -87,9 +84,9 @@ class FilterViewModel {
 
         switch filterType {
         case .eyeColor:
-            filterByEyeColor {
-                callBack()
-            }
+//            filterByEyeColor {
+//                callBack()
+//            }
             guard let filterSpecificType = filterSpecificType, filterSpecificType != "" else {
                 callBack()
                 return
@@ -98,9 +95,9 @@ class FilterViewModel {
             self.configFilterSpecificType { callBack() }
             
         case .gender:
-            filterByGender {
-                callBack()
-            }
+//            filterByGender {
+//                callBack()
+//            }
             guard let filterSpecificType = filterSpecificType, filterSpecificType != "" else {
                 callBack()
                 return
@@ -108,9 +105,9 @@ class FilterViewModel {
 
             self.configFilterSpecificType { callBack() }
         case .hairColor:
-            filterByHairColor {
-                callBack()
-            }
+//            filterByHairColor {
+//                callBack()
+//            }
         
             guard let filterSpecificType = filterSpecificType, filterSpecificType != "" else {
                 callBack()
@@ -118,9 +115,6 @@ class FilterViewModel {
             }
 
             self.configFilterSpecificType { callBack() }
-        default:
-            // Do nothing
-            break
         }
     }
 
@@ -147,7 +141,7 @@ class FilterViewModel {
     // MARK: - Filter methods
     func filterByEyeColor(callBack: () -> ()) {
         apiData = apiData?.filter {
-            $0.eyeColor != nil && $0.eyeColor != "" && $0.eyeColor == "n/a"
+            $0.eyeColor != nil && $0.eyeColor != ""
         }
 
         // Callback after filter
@@ -156,7 +150,7 @@ class FilterViewModel {
 
     func filterByGender(callBack: () -> ()) {
         apiData = apiData?.filter {
-            $0.gender != nil && $0.gender != "" && $0.gender == "n/a"
+            $0.gender != nil && $0.gender != ""
         }
 
         // Callback after filter
@@ -165,7 +159,7 @@ class FilterViewModel {
 
     func filterByHairColor(callBack: () -> ()) {
         apiData = apiData?.filter {
-            $0.hairColor != nil && $0.hairColor != "" && $0.hairColor == "n/a"
+            $0.hairColor != nil && $0.hairColor != ""
         }
 
         // Callback after filter

@@ -42,8 +42,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "updateFilteredList(callBack:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,8 +58,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "updateFilteredList(callBack:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,8 +74,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "updateFilteredList(callBack:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,8 +90,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "updateFilteredList(callBack:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -106,8 +106,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "updateFilteredList(callBack:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -122,8 +122,8 @@
             filePath = "AssignmentIOS/ViewcontrollerViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "getFilterModel()"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,8 +138,8 @@
             filePath = "AssignmentIOS/ViewcontrollerViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "getPersonData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,13 +154,13 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "updateList(with:callBack:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "3162963F-61C8-4077-8D4D-6F26A782081E - 5214e1c4774f65d"
+                  uuid = "3162963F-61C8-4077-8D4D-6F26A782081E - 5214e1c4774f6c0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -170,12 +170,12 @@
                   urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "76"
-                  endingLineNumber = "76"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
                   offsetFromSymbolStart = "385">
                </Location>
                <Location
-                  uuid = "3162963F-61C8-4077-8D4D-6F26A782081E - f952defd7a743b08"
+                  uuid = "3162963F-61C8-4077-8D4D-6F26A782081E - f952defd7a743497"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -185,8 +185,8 @@
                   urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "77"
-                  endingLineNumber = "77"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
                   offsetFromSymbolStart = "25">
                </Location>
             </Locations>
@@ -218,8 +218,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "253"
-            endingLineNumber = "253"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
             landmarkName = "updateFilterSpecificOptions(key:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,13 +234,13 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
             landmarkName = "updateFilterSpecificOptions(key:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C30E9E30-4C88-4994-BC34-724933208391 - 2bbff0a03c3a73b3"
+                  uuid = "C30E9E30-4C88-4994-BC34-724933208391 - 2bbff0a03c3a734d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -250,12 +250,12 @@
                   urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "239"
-                  endingLineNumber = "239"
+                  startingLineNumber = "233"
+                  endingLineNumber = "233"
                   offsetFromSymbolStart = "272">
                </Location>
                <Location
-                  uuid = "C30E9E30-4C88-4994-BC34-724933208391 - 260368bb8e3ffe25"
+                  uuid = "C30E9E30-4C88-4994-BC34-724933208391 - 260368bb8e3ffedb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -265,8 +265,8 @@
                   urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "239"
-                  endingLineNumber = "239"
+                  startingLineNumber = "233"
+                  endingLineNumber = "233"
                   offsetFromSymbolStart = "39">
                </Location>
             </Locations>
@@ -298,13 +298,13 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
             landmarkName = "updateFilterSpecificOptions(key:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "B355DAC6-C18F-4D0D-AA19-F7787C8CF405 - 2bbff0a03c3a717d"
+                  uuid = "B355DAC6-C18F-4D0D-AA19-F7787C8CF405 - 2bbff0a03c3a7237"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -314,12 +314,12 @@
                   urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "249"
-                  endingLineNumber = "249"
-                  offsetFromSymbolStart = "2337">
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
+                  offsetFromSymbolStart = "2328">
                </Location>
                <Location
-                  uuid = "B355DAC6-C18F-4D0D-AA19-F7787C8CF405 - f72b1701e9d2e7f5"
+                  uuid = "B355DAC6-C18F-4D0D-AA19-F7787C8CF405 - f72b1701e9d2e4bf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -329,12 +329,12 @@
                   urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "249"
-                  endingLineNumber = "249"
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
                   offsetFromSymbolStart = "23">
                </Location>
                <Location
-                  uuid = "B355DAC6-C18F-4D0D-AA19-F7787C8CF405 - c6dea56b5443f9f7"
+                  uuid = "B355DAC6-C18F-4D0D-AA19-F7787C8CF405 - c6dea56b5443fabd"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -344,8 +344,8 @@
                   urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "249"
-                  endingLineNumber = "249"
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
                   offsetFromSymbolStart = "25">
                </Location>
             </Locations>
@@ -393,8 +393,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "filterSpecificType"
             landmarkType = "24">
          </BreakpointContent>
@@ -409,13 +409,13 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "242"
-            endingLineNumber = "242"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
             landmarkName = "updateFilterSpecificOptions(key:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "9D6F42FB-72EF-4ED1-8A6A-59F750A4B894 - 2bbff0a03c3a7237"
+                  uuid = "9D6F42FB-72EF-4ED1-8A6A-59F750A4B894 - 2bbff0a03c3a73f1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -425,12 +425,12 @@
                   urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "243"
-                  endingLineNumber = "243"
-                  offsetFromSymbolStart = "1766">
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "1757">
                </Location>
                <Location
-                  uuid = "9D6F42FB-72EF-4ED1-8A6A-59F750A4B894 - a3e3a9f9d852af"
+                  uuid = "9D6F42FB-72EF-4ED1-8A6A-59F750A4B894 - a3e3a9f9d85369"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -440,8 +440,8 @@
                   urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "243"
-                  endingLineNumber = "243"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
                   offsetFromSymbolStart = "39">
                </Location>
             </Locations>
@@ -457,8 +457,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "269"
-            endingLineNumber = "269"
+            startingLineNumber = "263"
+            endingLineNumber = "263"
             landmarkName = "update(filterSpecificType:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -477,6 +477,133 @@
             endingLineNumber = "145"
             landmarkName = "filterSpecificTapped(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "004B0305-5B8C-46DA-9716-72EB36594B5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AssignmentIOS/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11EAED92-7244-4E8A-A2BD-EA099D2D7875"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "configFilterSpecificType(callBack:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "11EAED92-7244-4E8A-A2BD-EA099D2D7875 - e448bad8790035d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AssignmentIOS.FilterViewModel.(configFilterSpecificType in _27B56CBEF8B653785338CFAA5EE58F66)(callBack: () -&gt; ()) -&gt; ()"
+                  moduleName = "AssignmentIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "11EAED92-7244-4E8A-A2BD-EA099D2D7875 - e448bad8790035d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AssignmentIOS.FilterViewModel.(configFilterSpecificType in _27B56CBEF8B653785338CFAA5EE58F66)(callBack: () -&gt; ()) -&gt; ()"
+                  moduleName = "AssignmentIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "518">
+               </Location>
+               <Location
+                  uuid = "11EAED92-7244-4E8A-A2BD-EA099D2D7875 - e448bad8790035d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AssignmentIOS.FilterViewModel.(configFilterSpecificType in _27B56CBEF8B653785338CFAA5EE58F66)(callBack: () -&gt; ()) -&gt; ()"
+                  moduleName = "AssignmentIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/AssignmentIOS/AssignmentIOS/Filter/FilterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "807">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "978AF703-C4D5-4C32-9EF0-B0FE293586FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "filterSpecificByEyeColor(callBack:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A199423-DF40-481D-9CC5-1C6AEFE9DC45"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AssignmentIOS/ViewcontrollerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "setFilter(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0158EC89-324F-4AB4-BC3B-D641596BE1D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AssignmentIOS/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
