@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var mainTableView: UITableView!
     @IBOutlet weak var loader: UIActivityIndicatorView!
-    
+        
     /// Refresh Control
     private let refreshControl = UIRefreshControl()
         

@@ -25,7 +25,7 @@ class FilterViewModel {
     var filterSpecificOptions = [""]
     var isSpecificTypeAvailable = false
 
-    var collectionGems: [Person]?
+    var apiData: [Person]?
     var eyeColors = ["blue","yellow","red","brown"]
     var hairColors = ["gray","brown","bleck","blond"]
     var genderSpecifics = ["male","female"]
@@ -48,7 +48,7 @@ class FilterViewModel {
     /// Update Data Model
     func update(dataModel: FilterDataModel) {
         self.dataModel = dataModel
-        self.collectionGems = dataModel.collections
+        self.apiData = dataModel.collections
 
         if let filterType = dataModel.filterType {
             updateFilterSpecificOptions(key: filterType)
@@ -63,7 +63,7 @@ class FilterViewModel {
     }
 
     func getDataModel() -> FilterDataModel? {
-        dataModel?.collections = collectionGems
+        dataModel?.collections = apiData
 
         return dataModel
     }
@@ -71,7 +71,7 @@ class FilterViewModel {
     /// Update List with Filtered/Sorted Data
     func updateList(with dataModel: FilterDataModel?, callBack: () -> ()) {
         self.dataModel = dataModel
-        self.collectionGems = dataModel?.collections
+        self.apiData = dataModel?.collections
 
         self.updateFilteredList {
             callBack()
@@ -146,7 +146,7 @@ class FilterViewModel {
 
     // MARK: - Filter methods
     func filterByEyeColor(callBack: () -> ()) {
-        collectionGems = collectionGems?.filter {
+        apiData = apiData?.filter {
             $0.eyeColor != nil && $0.eyeColor != "" && $0.eyeColor == "n/a"
         }
 
@@ -155,7 +155,7 @@ class FilterViewModel {
     }
 
     func filterByGender(callBack: () -> ()) {
-        collectionGems = collectionGems?.filter {
+        apiData = apiData?.filter {
             $0.gender != nil && $0.gender != "" && $0.gender == "n/a"
         }
 
@@ -164,7 +164,7 @@ class FilterViewModel {
     }
 
     func filterByHairColor(callBack: () -> ()) {
-        collectionGems = collectionGems?.filter {
+        apiData = apiData?.filter {
             $0.hairColor != nil && $0.hairColor != "" && $0.hairColor == "n/a"
         }
 
@@ -180,7 +180,7 @@ class FilterViewModel {
             return
         }
 
-        collectionGems = collectionGems?.filter {
+        apiData = apiData?.filter {
             if let genderValue = $0.gender?.lowercased() {
                 return genderValue.contains(filterSpecificType.lowercased())
             }
@@ -197,7 +197,7 @@ class FilterViewModel {
             return
         }
 
-        collectionGems = collectionGems?.filter {
+        apiData = apiData?.filter {
             if let eyeColorValue = $0.eyeColor {
                 return eyeColorValue.contains(filterSpecificType.lowercased())
             }
@@ -214,7 +214,7 @@ class FilterViewModel {
             return
         }
 
-        collectionGems = collectionGems?.filter {
+        apiData = apiData?.filter {
             if let hairColorValue = $0.hairColor?.lowercased() {
                 return hairColorValue.contains(filterSpecificType.lowercased())
             }
@@ -236,11 +236,11 @@ extension FilterViewModel {
 
         switch key {
         case genderFilter:
-            filterSpecificOptions = collectionGems?.map { $0.gender ?? "" } ?? []
+            filterSpecificOptions = apiData?.map { $0.gender ?? "" } ?? []
         case eyeColorFilter:
-            filterSpecificOptions = collectionGems?.map { $0.eyeColor ?? ""  } ?? []
+            filterSpecificOptions = apiData?.map { $0.eyeColor ?? ""  } ?? []
         case hairColorFilter:
-            filterSpecificOptions = collectionGems?.map { $0.hairColor ?? ""  } ?? []
+            filterSpecificOptions = apiData?.map { $0.hairColor ?? ""  } ?? []
         default:
             // Do nothing
             break

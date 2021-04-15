@@ -58,16 +58,6 @@ class NetworkManager {
     }
     
     func getNextList(urlStr:String, callback : @escaping (DataModel?, NSString?) -> Void) {
-//        var components = URLComponents()
-//        let queryItemToken = URLQueryItem(name: "page", value: "2")
-//        components.queryItems = [queryItemToken]
-        
-//        let endpoint: URL?
-//        var urlComponents = URLComponents(string: "/api/people/\(collectionId)")
-//        urlComponents?.queryItems = [URLQueryItem(name: AppModelsKeys.itemIds, value: "\(gemIds)")]
-//        endpoint = urlComponents?.url
-        
-        
         if let url = URL(string: urlStr) {
             let request = NSURLRequest(url: url)
             fetchRequest(urlRequest: request as URLRequest) { (status, response) in

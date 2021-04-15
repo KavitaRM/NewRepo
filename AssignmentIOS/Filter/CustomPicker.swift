@@ -57,7 +57,7 @@ class CustomPicker: UIView {
         /// Update Picker Data
         data = delegate?.data(in: self)
 
-//        pickerTableView.scrollToRow(at: getSelectedIndexPath(delegate?.seletedValue(in: self)), at: .middle, animated: true)
+        pickerTableView.scrollToRow(at: getSelectedIndexPath(delegate?.seletedValue(in: self)), at: .top, animated: true)
     }
 }
 

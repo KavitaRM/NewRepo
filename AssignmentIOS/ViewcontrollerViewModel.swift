@@ -22,13 +22,10 @@ class ViewcontrollerViewModel {
     func cellCount() -> Int {
         print(self.dataModel?.results)
         return self.initialData.count
-//        return self.dataModel?.results?.count ?? 0
-//        return self.result?.count ?? 0
     }
 
     func getDataForIndex(index: Int) -> Person {
         return self.initialData[index]
-//        return (self.dataModel?.results?[index])!
     }
     
     func getPersonData() -> [Person]? {
@@ -86,7 +83,7 @@ extension ViewcontrollerViewModel: ViewModelProtocol {
 
     func getFilterModel() -> FilterDataModel? {
         var model = self.filterDataModel
-        /// Filter will always apply on all Collections
+        
         model?.collections = getPersonData()
 
         return model

@@ -76,6 +76,7 @@ extension FilterViewController {
 
     private func updatePickers() {
         filterByPicker.delegate = self
+        filterSpecificPicker.delegate = self
     }
 
     private func updateResetButton() {
@@ -114,6 +115,8 @@ extension FilterViewController {
 
         /// Hide  Picker
         filterByPicker.isHidden = true
+        filterSpecificPicker.isHidden = true
+        blurView.isHidden = false
 
     }
 
