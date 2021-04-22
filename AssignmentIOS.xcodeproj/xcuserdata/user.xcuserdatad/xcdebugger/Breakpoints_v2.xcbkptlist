@@ -35,54 +35,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DA703A29-A24B-4C1A-A60C-839B42FD6228"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "updateFilteredList(callBack:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "56153712-5CFA-4106-902E-56CCA81A35A9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "updateFilteredList(callBack:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C6DE864F-F48E-4CA5-A4F8-F6473557BB30"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "updateFilteredList(callBack:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "E1DA9B3B-7523-42D0-9524-2F6A2C3AD291"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -122,8 +74,8 @@
             filePath = "AssignmentIOS/ViewcontrollerViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
             landmarkName = "getFilterModel()"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,8 +90,8 @@
             filePath = "AssignmentIOS/ViewcontrollerViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "getPersonData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -202,25 +154,9 @@
             filePath = "AssignmentIOS/Filter/FilterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "applyButtonTapped(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "953801A0-04FC-4161-B740-F3582933A2E7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "247"
-            endingLineNumber = "247"
-            landmarkName = "updateFilterSpecificOptions(key:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -234,8 +170,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "233"
-            endingLineNumber = "233"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
             landmarkName = "updateFilterSpecificOptions(key:)"
             landmarkType = "7">
             <Locations>
@@ -298,8 +234,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "243"
-            endingLineNumber = "243"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
             landmarkName = "updateFilterSpecificOptions(key:)"
             landmarkType = "7">
             <Locations>
@@ -361,8 +297,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "seletedValue(in:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -409,8 +345,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "236"
-            endingLineNumber = "236"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
             landmarkName = "updateFilterSpecificOptions(key:)"
             landmarkType = "7">
             <Locations>
@@ -457,8 +393,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "263"
-            endingLineNumber = "263"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
             landmarkName = "update(filterSpecificType:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -473,8 +409,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "filterSpecificTapped(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -489,10 +425,10 @@
             filePath = "AssignmentIOS/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "applyFilterWith(dataModel:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -505,8 +441,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
             landmarkName = "configFilterSpecificType(callBack:)"
             landmarkType = "7">
             <Locations>
@@ -568,8 +504,8 @@
             filePath = "AssignmentIOS/Filter/FilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "191"
-            endingLineNumber = "191"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "filterSpecificByEyeColor(callBack:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -584,8 +520,8 @@
             filePath = "AssignmentIOS/ViewcontrollerViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "setFilter(model:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -600,10 +536,10 @@
             filePath = "AssignmentIOS/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

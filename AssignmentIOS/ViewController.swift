@@ -14,10 +14,7 @@ class ViewController: UIViewController {
         
     /// Refresh Control
     private let refreshControl = UIRefreshControl()
-        
-    var searchedCountry = [String]()
-    var searching = false
-    
+            
     var viewModel = ViewcontrollerViewModel()
     
     override func viewDidLoad() {

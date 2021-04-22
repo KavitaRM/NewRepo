@@ -84,9 +84,6 @@ class FilterViewModel {
 
         switch filterType {
         case .eyeColor:
-//            filterByEyeColor {
-//                callBack()
-//            }
             guard let filterSpecificType = filterSpecificType, filterSpecificType != "" else {
                 callBack()
                 return
@@ -95,9 +92,6 @@ class FilterViewModel {
             self.configFilterSpecificType { callBack() }
             
         case .gender:
-//            filterByGender {
-//                callBack()
-//            }
             guard let filterSpecificType = filterSpecificType, filterSpecificType != "" else {
                 callBack()
                 return
@@ -105,10 +99,6 @@ class FilterViewModel {
 
             self.configFilterSpecificType { callBack() }
         case .hairColor:
-//            filterByHairColor {
-//                callBack()
-//            }
-        
             guard let filterSpecificType = filterSpecificType, filterSpecificType != "" else {
                 callBack()
                 return
@@ -225,8 +215,6 @@ class FilterViewModel {
 // MARK: - Update Filter Specific Data
 extension FilterViewModel {
     func updateFilterSpecificOptions(key: String) {
-        /// Reset All
-//        filterSpecificOptions.removeAll()
 
         switch key {
         case genderFilter:
@@ -244,10 +232,6 @@ extension FilterViewModel {
 
 
         if filterSpecificOptions.count > 0 {
-//            filterSpecificOptions.insert("", at: 0)
-//            filterSpecificOptions.insert("", at: 0)
-//            filterSpecificOptions.append("")
-//            filterSpecificOptions.append("")
             isSpecificTypeAvailable = true
         } else {
             isSpecificTypeAvailable = false

@@ -40,8 +40,6 @@ class ViewcontrollerViewModel {
             if let collection = filterDataModel.collections?[index] {
                 return collection
             }
-//            guard let collection = filterDataModel.collections?[index] else { return nil}
-
             
         }
         
@@ -71,7 +69,7 @@ class ViewcontrollerViewModel {
             if let response = response {
                 weakSelf.dataModel = response
                 if let data = weakSelf.dataModel?.results {
-                    weakSelf.initialData.append(contentsOf: data)
+                    weakSelf.initialData.insert(contentsOf: data, at: 0)
                 }
                 successCallback()
             } else {
@@ -95,7 +93,6 @@ class ViewcontrollerViewModel {
 }
 
 
-// MARK: Collection View Model Protocol
 extension ViewcontrollerViewModel: ViewModelProtocol {
     func setFilter(model: FilterDataModel?) {
         self.filterDataModel = model

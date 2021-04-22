@@ -15,22 +15,20 @@ class FilterViewController: UIViewController {
     @IBOutlet weak var cancelButton: UIButton!
     @IBOutlet weak var blurView: UIView!
     @IBOutlet weak var filterSpecificButton: UIButton!
-    
+
     @IBOutlet weak var filterByPicker: CustomPicker!
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var filterSpecificPicker: CustomPicker!
 
-    
     var delegate: FilterDelegate?
     var viewModel = FilterViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        /// Update Filter Data If already selected
-        updateFeilds()
-
         applyTheme()
+
+        updateFeilds()
         updatePickers()
         updateResetButton()
         updateApplyButton()
@@ -52,7 +50,7 @@ extension FilterViewController {
     private func applyTheme() {
         filterByButton.setTitleColor(UIColor(red: 14.0 / 255, green: 9.0 / 255, blue: 21 / 255, alpha: 1), for: .normal)
         filterByButton.backgroundColor = UIColor(red: 0.0 / 255.0, green: 0.0 / 255.0, blue: 0.0 / 255.0, alpha: 0.0)
-        
+
         filterSpecificButton.setTitleColor(UIColor(red: 14.0 / 255, green: 9.0 / 255, blue: 21 / 255, alpha: 1), for: .normal)
         filterSpecificButton.backgroundColor = UIColor(red: 0.0 / 255.0, green: 0.0 / 255.0, blue: 0.0 / 255.0, alpha: 0.0)
 
@@ -96,7 +94,7 @@ extension FilterViewController {
     private func enableSpecificTypeView() {
         blurView.isHidden = viewModel.isSpecificTypeAvailable
     }
-  
+
 }
 
 // MARK: - Button Actions
@@ -138,7 +136,7 @@ extension FilterViewController {
         filterSpecificPicker.isHidden = true
         filterByPicker.setData()
     }
-    
+
     @IBAction func filterSpecificTapped(_ sender: UIButton) {
         filterSpecificPicker.isHidden = false
         filterByPicker.isHidden = true
@@ -181,7 +179,7 @@ extension FilterViewController: CustomPickerDelegate {
             updateResetButton()
             updateApplyButton()
             enableSpecificTypeView()
-            
+
         case filterSpecificPicker:
             viewModel.update(filterSpecificType: value)
 
